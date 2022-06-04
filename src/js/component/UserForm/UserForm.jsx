@@ -6,7 +6,7 @@ export const UserForm = (props) => {
 	return (
 		<>
 			<InputForm onSave={props.addUser} />
-			<div style={{ marginTop: "30px" }}>
+			<div style={{ marginTop: "60px" }}>
 				{props.users.map((username, i) => {
 					return (
 						<Item
